@@ -5,3 +5,4 @@ edition = "2021"
 
 [dependencies]
 image = { version = "0.24.7" }
+xxhash-rust = { version = "0.8.8", features = ["xxh64"] }
